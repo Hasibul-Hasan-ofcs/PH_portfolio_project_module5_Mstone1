@@ -1,0 +1,42 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.primary_button {
+  background-color: #fd6e0a;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  padding: 1rem 2.5rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+  display: inline-block;
+}
+
+.secondery_button {
+  color: #fd6e0a;
+  font-weight: 600;
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  padding: 1rem 2.5rem;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  outline: none;
+
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 2rem;
+}
