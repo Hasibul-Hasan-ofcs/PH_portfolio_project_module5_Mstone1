@@ -5,8 +5,8 @@ header {
   flex-direction: column;
   justify-content: space-between;
 
-  background-image: url("../portfolio_resources/images/header_bg.png"),
-    url("../portfolio_resources/images/developer.png");
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, top left;
   background-size: 70rem, contain;
