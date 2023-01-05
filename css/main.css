@@ -1,0 +1,44 @@
+.section_title {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4.8rem;
+  text-align: center;
+  color: #181818;
+  margin: 3rem 0;
+}
+
+.about {
+  max-width: 114rem;
+  padding: 8rem 10rem;
+  margin: 15rem auto 0 auto;
+  background: #fff8f3;
+  border-radius: 1rem;
+}
+
+.about p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  text-align: center;
+  color: #757575;
+
+  margin: 3rem 0;
+}
+
+.about table {
+  margin: 0 auto;
+}
+
+.about table td {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  color: #757575;
+  padding: 0 1rem;
+}
+
+.about table td.boldData {
+  font-weight: 700;
+  color: #474747;
+}
