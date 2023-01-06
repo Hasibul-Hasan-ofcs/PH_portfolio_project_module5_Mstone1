@@ -73,6 +73,10 @@ header {
   margin: 5px 0 2.5rem 0;
 }
 
+.banner .left .buttons {
+  display: flex;
+}
+
 .banner .dev_image {
   height: 57rem;
   margin-right: 5rem;

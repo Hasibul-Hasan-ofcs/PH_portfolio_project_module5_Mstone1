@@ -53,3 +53,13 @@ img {
 .secondery_button:hover {
   box-shadow: 0 3px 8px 1px #c4bdba;
 }
+
+.svg_icons {
+  height: 2rem;
+}
+
+.icon_carrying_button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
