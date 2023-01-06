@@ -7,22 +7,35 @@
   margin: 3rem 0;
 }
 
+p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: #757575;
+  margin: 3rem 0;
+}
+
+.underline {
+  border-top: 1px solid #d1d1d1;
+}
+
+/* about section */
+
 .about {
   max-width: 114rem;
   padding: 8rem 10rem;
   margin: 15rem auto 0 auto;
   background: #fff8f3;
   border-radius: 1rem;
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.about:hover {
+  box-shadow: 0 3px 8px 1px #c4bdba;
 }
 
 .about p {
-  font-weight: 400;
-  font-size: 1.8rem;
-  line-height: 3rem;
   text-align: center;
-  color: #757575;
-
-  margin: 3rem 0;
 }
 
 .about table {
@@ -41,4 +54,75 @@
 .about table td.boldData {
   font-weight: 700;
   color: #474747;
+}
+
+/* what I do section */
+.whatido {
+  margin: 15rem auto 0 auto;
+  max-width: 114rem;
+}
+
+.whatido > p {
+  text-align: center;
+}
+
+.databox {
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+}
+
+.datacards {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 3rem;
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.datacards:hover {
+  box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+.datacards h4 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-top: 4rem;
+}
+
+/* Resume summary */
+.resume_summary {
+  margin: 15rem auto 0 auto;
+  max-width: 114rem;
+}
+
+.summarybox {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+.resumedata {
+  margin-top: 3rem;
+}
+
+.resumedata h4 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 4.1rem;
+  color: #474747;
+}
+
+.resumedata h5 {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: #757575;
+}
+
+.downcvbuttonbox {
+  text-align: center;
+  padding-top: 3rem;
 }

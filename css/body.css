@@ -11,6 +11,11 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+button,
+img {
+  cursor: pointer;
+}
+
 .primary_button {
   background-color: #fd6e0a;
   color: #fff;
@@ -24,6 +29,7 @@ html {
 
   cursor: pointer;
   display: inline-block;
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .secondery_button {
@@ -39,4 +45,11 @@ html {
   cursor: pointer;
   display: inline-block;
   margin-left: 2rem;
+  background-color: transparent;
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.primary_button:hover,
+.secondery_button:hover {
+  box-shadow: 0 3px 8px 1px #c4bdba;
 }
